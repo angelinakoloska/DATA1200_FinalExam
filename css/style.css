@@ -40,8 +40,13 @@ nav a {
     color: var(--nav-text);
 }
 
+img {
+    display: block;
+}
+
 #logo {
-    width: 100% ;
+    position: fixed;
+    display: inline;
 }
 
 input[type="checkbox"] {
