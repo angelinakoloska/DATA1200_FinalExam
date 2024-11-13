@@ -1,0 +1,82 @@
+/* Declaring variables */
+:root {
+    --font-headers: sans-serif;
+    --font-paragraphs: sans-serif;
+    --bg-primary: #fff;
+    --bg-secondary: #f7f7f7;
+    --text-size: 1rem;
+    --text-primary: #333;
+    --text-secondary: #666;
+    /* --text-tertiary: #999; */
+    --border-radius: 10px;
+    --box-shadow: 0 0 10px rgba(0, 0,
+    0, 0.1);
+    --nav-bg: #2c8eec;
+    --nav-text: #fff;
+    --font-style: "Poppins", sans-serif;
+    --table-head-bg: #14d1de;
+    --table-body-bg-primary: #fff;
+    --table-body-bg-secondary: #1ce6c7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: var(--font-style);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--nav-bg);
+    padding: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--nav-text);
+}
+
+img {
+    display: block;
+}
+
+#logo {
+    position: fixed;
+    display: inline;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+label {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+ul a {
+    padding: 0.5em;
+}
+
+ul a:hover {
+    background-color: #333;
+    border-radius: 0.5em;
+}
+
+.active {
+    border-bottom: 2px solid #fff;
+}
+
+#subjects {
+    margin-top: 0.5rem;
+}
