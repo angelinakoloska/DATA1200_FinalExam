@@ -37,7 +37,7 @@ body {
     object-fit: cover;
     margin: 20PX auto;
   }
-  
+
 #bilde5 {
     width: 100%;
     height: auto;
@@ -49,6 +49,9 @@ body {
     height: auto; /* Beholder proporsjonene til bildet */
     object-fit: cover; /* Sørger for at bildet fyller plassen uten å bli forvrengt */
     margin: 20px auto; /* Sentraliserer bildet med litt margin rundt */
+}
+#about, #work, #join {
+    margin: 40px 0;
 }
 
 #image-container {
