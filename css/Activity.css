@@ -89,6 +89,16 @@ work-image {
     flex: 2; /* Teksten tar mer plass enn bildet */
     max-width: 600px; /* Maks bredde for å hindre at teksten strekker seg for langt */
 }
+#work-text h2 {
+    font-size: 2rem; /* Større skriftstørrelse for overskriften. */
+    color: #333; /* Mørk farge for overskriften. */
+}
+
+#work-text p {
+    font-size: 1rem; /* Standard skriftstørrelse for paragrafen. */
+    line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet. */
+    color: #666; /* Lysere farge for teksten. */
+}
 
 
 
