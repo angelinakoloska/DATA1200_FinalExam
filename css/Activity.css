@@ -71,3 +71,9 @@ body {
     width: 100%;
     max-width: 300px; 
 }
+#work {
+    display: flex; /* Bruk Flexbox for å plassere innholdet på én linje */
+    align-items: center; /* Vertikalt sentering av innhold */
+    gap: 20px; /* Avstand mellom bildet og teksten */
+    margin: 40px 0; /* Margin for å gi plass rundt */
+}
