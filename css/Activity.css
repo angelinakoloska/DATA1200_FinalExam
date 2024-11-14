@@ -83,9 +83,12 @@ work-image {
 #work-image img {
     width: 100%; /* Fyller containeren med bildet. */
     height: auto; /* Bevarer bildets proporsjoner. */
-    object-fit: cover; /* Sørger for at bildet dekker området uten forvrengning. */
+    object-fit: cover;
 }
-
+#work-text {
+    flex: 2; /* Teksten tar mer plass enn bildet */
+    max-width: 600px; /* Maks bredde for å hindre at teksten strekker seg for langt */
+}
 
 
 
