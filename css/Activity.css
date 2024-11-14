@@ -15,4 +15,6 @@ body {
     /* Endrer skrifttypen til Verdana og setter fontstørrelsen på p-taggen til 20px */
     font-family: verdana;
     font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
   }
