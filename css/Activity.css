@@ -30,9 +30,17 @@ body {
     max-height: 600px; /* Angi maks høyde hvis du vil begrense den */
     object-fit: cover;
   }
+  #bilde2 {
+    width: 500px;
+    height: autox;
+  }
+  #bilde3, #bilde4{
+    max-width: 100%;
+    margin: 20px 0;
+    object-fit: cover;
 
 
-
+ }
   #about {
     display: flex;
     justify-content: space-between;
