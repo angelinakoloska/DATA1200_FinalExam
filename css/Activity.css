@@ -70,16 +70,23 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 0;
+    gap: 20px;
 }
 
 #about-text {
     width: 50%; 
+    margin-right: 20px;
 }
+#about-image {
+    display: flex;
+    gap: 10px;
+}
+
 #about-image img {
-    width: 100%;
-    max-width: 300px; 
+    width: 48%;
+    object-fit: cover; 
 }
+
 #work {
     display: flex; /* Bruk Flexbox for å plassere innholdet på én linje */
     align-items: center; /* Vertikalt sentering av innhold */
