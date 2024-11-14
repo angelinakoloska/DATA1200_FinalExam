@@ -18,3 +18,15 @@ body {
     line-height: 1.6;
     text-align: center;
   }
+  img {
+    max-width: 100%; /* Gjør bildene responsive */
+    height: auto; /* Beholder bildets proporsjoner */
+    display: block; /* Fjern eventuelle ekstra mellomrom rundt bilder */
+    margin: 20px auto; /* Sentraliserer bildet */
+  }
+  #about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
