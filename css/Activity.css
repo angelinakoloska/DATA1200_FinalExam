@@ -1,6 +1,6 @@
 body {
     /* Bakgrunnsfarge på hele siden satt til en grønnblå farge */
-    background-color: rgb(83, 156, 153);
+    background-color: rgb(182, 120, 39);
     font-family: Arial, sans-serif;
   }
   
@@ -32,15 +32,31 @@ body {
   }
   #bilde2 {
     width: 500px;
-    height: autox;
+    height: auto;
   }
   #bilde3, #bilde4{
-    max-width: 100%;
-    margin: 20px 0;
+    max-width: 30%;
+    margin: 10px 0;
     object-fit: cover;
+  }
+#bilde5 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 20px;
+}
+#image-container {
+    display: flex;
+    flex-wrap: wrap; /* Gjør at bildene brytes til neste linje når det er nødvendig */
+    gap: 20px; /* Avstand mellom bildene */
+    justify-content: center; /* Sentrerer bildene */
+    margin: 40px 0;
+}
+#image-container img {
+    width: 45%; /* Setter bredden til 45% for å ha plass til to bilder på rad */
+    object-fit: cover;
+}
 
-
- }
   #about {
     display: flex;
     justify-content: space-between;
