@@ -77,3 +77,20 @@ body {
     gap: 20px; /* Avstand mellom bildet og teksten */
     margin: 40px 0; /* Margin for å gi plass rundt */
 }
+work-image {
+    flex: 1; /* Gjør bildet fleksibelt i forhold til teksten. */
+}
+#work-image img {
+    width: 100%; /* Fyller containeren med bildet. */
+    height: auto; /* Bevarer bildets proporsjoner. */
+    object-fit: cover; /* Sørger for at bildet dekker området uten forvrengning. */
+}
+
+
+
+
+
+
+
+
+
