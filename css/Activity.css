@@ -30,21 +30,27 @@ body {
     max-height: 600px; /* Angi maks høyde hvis du vil begrense den */
     object-fit: cover;
   }
-  #bilde2 {
-    width: 500px;
-    height: auto;
-  }
-  #bilde3, #bilde4{
-    max-width: 30%;
-    margin: 10px 0;
+  #bilde2, #bilde3, #bilde4{
+    width: 100%;
+    max-width: 500px;
+    height:auto;
     object-fit: cover;
+    margin: 20PX auto;
   }
+  
 #bilde5 {
     width: 100%;
     height: auto;
     object-fit: cover;
     margin: 20px;
 }
+#bilde6 {
+    width: 40%; /* Setter bredden til 100% av containeren */
+    height: auto; /* Beholder proporsjonene til bildet */
+    object-fit: cover; /* Sørger for at bildet fyller plassen uten å bli forvrengt */
+    margin: 20px auto; /* Sentraliserer bildet med litt margin rundt */
+}
+
 #image-container {
     display: flex;
     flex-wrap: wrap; /* Gjør at bildene brytes til neste linje når det er nødvendig */
@@ -99,6 +105,7 @@ work-image {
     line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet. */
     color: #666; /* Lysere farge for teksten. */
 }
+
 
 
 
