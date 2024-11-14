@@ -1,12 +1,14 @@
 body {
     /* Bakgrunnsfarge på hele siden satt til en grønnblå farge */
     background-color: rgb(83, 156, 153);
+    font-family: Arial, sans-serif;
   }
   
   h1 {
     /* Endrer fargen på h1-overskriften til hvit og setter teksten til å være midtstilt */
     color: white;
     text-align: center;
+    margin-top: 20px;
   }
   
   p {
