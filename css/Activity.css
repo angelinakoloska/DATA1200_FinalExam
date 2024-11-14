@@ -24,6 +24,15 @@ body {
     display: block; /* Fjern eventuelle ekstra mellomrom rundt bilder */
     margin: 20px auto; /* Sentraliserer bildet */
   }
+  #bilde1 {
+    width: 100%; /* Full bredde av siden */
+    height: auto; /* Høyden justeres proporsjonalt */
+    max-height: 600px; /* Angi maks høyde hvis du vil begrense den */
+    object-fit: cover;
+  }
+
+
+
   #about {
     display: flex;
     justify-content: space-between;
