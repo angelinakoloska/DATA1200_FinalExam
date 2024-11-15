@@ -174,7 +174,21 @@ work-image {
     height: auto; /* Beholder bildets proporsjoner */
     object-fit: cover; /* Sørger for at bildet fyller plassen uten å bli forvrengt */
 }
+#Souk {
+    margin-top: 40px;
+    padding: 20px; /* Legger til litt polstring rundt seksjonen */
+    background-color: #f9f9f9; /* En lys bakgrunnsfarge for å skille denne seksjonen */
+    text-align: center; /* Sentraliserer teksten */
+    font-family: 'Georgia', serif; /* Elegant font for hele seksjonen */
+}
 
+#Souk-text {
+    max-width: 1200px; /* Begrens bredde for bedre lesbarhet */
+    margin: 0 auto; /* Sentraliserer innholdet */
+    text-align: left; /* Justerer teksten til venstre */
+    line-height: 1.6; /* Gir god linjeavstand */
+    color: #333; /* Tekstfarge */
+}
 
 footer {
     background-color: #333;
