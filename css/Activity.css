@@ -135,34 +135,44 @@ work-image {
     color: #333; /* Mørk farge for overskriften. */
 }
 
-#work-text p {
+#work-text {
     font-size: 1rem; /* Standard skriftstørrelse for paragrafen. */
     line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet. */
     color: #666; /* Lysere farge for teksten. */
 }
-#join {
-    display: flex;
-    justify-content: space-between; /* Plasserer elementene på hver sin side */
-    align-items: center; /* Vertikalt sentering */
-    gap: 20px; /* Litt avstand mellom tekst og bilde */
-    margin: 20px;
+
+#food {
+    margin-top: 40px;
+    text-align: center;
     }
 
-#join-text {
-    flex: 1; /* Gir plass til teksten */
-    max-width: 50%; /* Maksimal bredde for teksten */
+
+    .food-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px; /* Legger til litt avstand mellom teksten og bildet */
+        max-width: 1200px;
+        margin: 0 auto;
+        
+    }
+
+
+#food-text {
     text-align: left; /* Sørger for at teksten er venstrestilt */
+    line-height: 1.6;
 }
-#join-image {
-    flex: 1; /* Gir plass til bildet */
+
+#food-image {
+
     display: flex;
-    justify-content: flex-end; /* Plasserer bildet til høyre */
+    justify-content: center;
+
 }
-#bilde6 {
-    width: 100%; /* Bildet fyller tilgjengelig plass */
-    max-width: 500px; /* Setter en maks bredde for bildet */
-    height: auto; /* Beholder proporsjonene på bildet */
-    object-fit: cover; /* Sørger for at bildet fyller containeren */
+#food-image img {
+    width: 100%; /* Bildet fyller containeren */
+    max-width: 500px; /* Begrens bildet til en viss bredde */
+    height: auto; /* Beholder bildets proporsjoner */
+    object-fit: cover; /* Sørger for at bildet fyller plassen uten å bli forvrengt */
 }
 
 
