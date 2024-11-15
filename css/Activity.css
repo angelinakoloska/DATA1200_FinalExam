@@ -189,6 +189,16 @@ work-image {
     line-height: 1.6; /* Gir god linjeavstand */
     color: #333; /* Tekstfarge */
 }
+#Souk-text h2 {
+    font-size: 2rem; /* Størrelse på overskrift */
+    color: #b45f04; /* Gir en fin kontrast til teksten */
+    margin-bottom: 20px;
+}
+
+#Souk-text p {
+    font-size: 1rem; /* Normal tekststørrelse */
+    margin-bottom: 20px; /* Avstand mellom paragrafen og bildet */
+}
 
 footer {
     background-color: #333;
