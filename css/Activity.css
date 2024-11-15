@@ -141,8 +141,12 @@ work-image {
     color: #666; /* Lysere farge for teksten. */
 }
 #join {
-    text-align: center;
-}
+    display: flex;
+    justify-content: space-between; /* Plasserer elementene på hver sin side */
+    align-items: center; /* Vertikalt sentering */
+    gap: 20px; /* Litt avstand mellom tekst og bilde */
+    margin: 20px;
+    }
 
 #join-text {
     margin-bottom: 20px;
