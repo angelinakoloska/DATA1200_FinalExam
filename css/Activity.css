@@ -199,6 +199,15 @@ work-image {
     font-size: 1rem; /* Normal tekststørrelse */
     margin-bottom: 20px; /* Avstand mellom paragrafen og bildet */
 }
+#Souk-text img {
+    display: block; /* Fjerner mellomrom under bildet */
+    margin: 0 auto; /* Sentraliserer bildet */
+    max-width: 100%; /* Gjør bildet responsivt */
+    height: auto; /* Bevarer proporsjonene */
+    border-radius: 10px; /* Gir avrundede hjørner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Legger til en liten skygge */
+}
+
 
 footer {
     background-color: #333;
