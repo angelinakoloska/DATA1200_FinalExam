@@ -158,6 +158,12 @@ work-image {
     display: flex;
     justify-content: flex-end; /* Plasserer bildet til høyre */
 }
+#bilde6 {
+    width: 100%; /* Bildet fyller tilgjengelig plass */
+    max-width: 500px; /* Setter en maks bredde for bildet */
+    height: auto; /* Beholder proporsjonene på bildet */
+    object-fit: cover; /* Sørger for at bildet fyller containeren */
+}
 
 
 footer {
