@@ -91,7 +91,10 @@ body {
     display: flex; /* Bruk Flexbox for å plassere innholdet på én linje */
     align-items: center; /* Vertikalt sentering av innhold */
     gap: 20px; /* Avstand mellom bildet og teksten */
-    margin: 40px 0; /* Margin for å gi plass rundt */
+}
+#work-text {
+    flex: 2;
+    max-width: 600px;
 }
 work-image {
     flex: 1; /* Gjør bildet fleksibelt i forhold til teksten. */
