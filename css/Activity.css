@@ -149,8 +149,17 @@ work-image {
     }
 
 #join-text {
-    margin-bottom: 20px;
+    flex: 1; /* Gir plass til teksten */
+    max-width: 50%; /* Maksimal bredde for teksten */
+    text-align: left; /* Sørger for at teksten er venstrestilt */
 }
+#join-image {
+    flex: 1; /* Gir plass til bildet */
+    display: flex;
+    justify-content: flex-end; /* Plasserer bildet til høyre */
+}
+
+
 footer {
     background-color: #333;
     color: white;
