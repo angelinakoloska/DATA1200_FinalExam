@@ -25,13 +25,14 @@ body {
     margin: 20px auto; /* Sentraliserer bildet */
   }
   #bilde1 {
-    width: 100%; /* Full bredde av siden */
+    width: 50%; /* Full bredde av siden */
     height: auto; /* Høyden justeres proporsjonalt */
     max-height: 600px; /* Angi maks høyde hvis du vil begrense den */
     object-fit: cover;
+
   }
-  #bilde2, #bilde3, #bilde4{
-    width: 100%;
+  #bilde3, #bilde4{
+    width: 50%;
     max-width: 500px;
     height:auto;
     object-fit: cover;
@@ -150,6 +151,7 @@ work-image {
 
 
 .food-container {
+    background-color: #f9f9f9;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px; /* Legger til litt avstand mellom teksten og bildet */
