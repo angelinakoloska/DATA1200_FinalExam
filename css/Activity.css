@@ -114,8 +114,10 @@ body {
 
 #work {
     display: flex; /* Bruk Flexbox for å plassere innholdet på én linje */
+    justify-content: space-between;
     align-items: center; /* Vertikalt sentering av innhold */
-    gap: 20px; /* Avstand mellom bildet og teksten */
+    margin: 0 4rem;
+    /*gap: 5rem;*/ /* Avstand mellom bildet og teksten */
 }
 #work-text {
     flex: 2;
@@ -144,17 +146,17 @@ work-image {
 #food {
     margin-top: 40px;
     text-align: center;
-    }
+}
 
 
-    .food-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px; /* Legger til litt avstand mellom teksten og bildet */
-        max-width: 1200px;
-        margin: 0 auto;
+.food-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Legger til litt avstand mellom teksten og bildet */
+    max-width: 1200px;
+    margin: 0 auto;
         
-    }
+}
 
 
 #food-text {
