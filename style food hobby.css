@@ -124,3 +124,48 @@ gap: 2rem;
     margin: 1rem 0;
 }
 
+/* Additional Links Section */
+.tips-resources {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    background-color: #FFF59D; /* Yellow */
+    border-radius: 10px;
+}
+
+.tips-resources h2 {
+    font-size: 1.8rem;
+    color: #2E7D32; /* Green */
+    margin-bottom: 1rem;
+}
+
+.circle-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.circle-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: #E3F2FD; /* Light blue */
+    color: #2E7D32;
+    border-radius: 50%; /* Makes it a circle */
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-wrap: break-word; /* Breaks long words */
+    transition: all 0.3s ease;
+}
+
+.circle-links a:hover {
+    background-color: #2E7D32; /* Dark Green*/
+    color: white;
+    transform: scale(1.1);
+}
