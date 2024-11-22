@@ -86,5 +86,41 @@ a:hover {
     background-color: #1B5E20; /* Darker green */
 }
 
+/* Recipe Section */
+.recipes {
+    padding: 4rem 2rem;
+    background-color: #F8F6F3;
+}
 
+.recipes h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #D34E24; /* Red*/
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+gap: 2rem;
+}
+
+.recipe {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.recipe h3 {
+    font-size: 1.5rem;
+    color: #2E7D32;
+    margin: 1rem 0;
+}
 
