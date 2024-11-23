@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Food Journal - Explore Recipes, Cooking tips, and creative culinary ideas for dishes like Pokebowls, Pancakes, Pizza, and Tiramisu. ">
     <title>My Food Journal</title>
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif:wght@400;700&display=swap"
@@ -17,10 +18,11 @@
         <div class="logo">
             <h1>My Food Journal</h1>
         </div>
-        <nav class="menu-bar">
-                <li><a href="#pokebowls">Pokebowls</a><li>
-                <li><a href="#pancakes">Pancakes</a><li>
-                <li><a href="#pizza">Pizza & Gnocchi</a><li>
+        <nav class="menu-bar" role="navigation">
+            <ul>
+                <li><a href="#pokebowls">Pokebowls</a></li>
+                <li><a href="#pancakes">Pancakes</a></li>
+                <li><a href="#pizza">Pizza & Gnocchi</a></li>
                 <li><a href="#tiramisu">Tiramisu</a></li>
             </ul>
         </nav>
@@ -40,7 +42,9 @@
 <section id="recipes" class="recipes">
     <h2>Featured Recipes</h2>
     <div class="recipe-grid">
-        <div class="recipe">
+
+        <!-- Pokebowl Section -->
+        <section id="pokebowls" class="recipe">
             <img src="img/pokebowls.jpg" alt="Pokebowl">
             <h3>Pokebowls</h3>
             <p>A fresh and nutritious dish with rice, vegetables, raw fish, and a flavorful sauce.
@@ -48,8 +52,10 @@
                    target="_blank">Click here for the recipe
                 </a>.
             </p>
-        </div>
-    <div class="recipe">
+        </section>
+
+        <!-- Pancake Section -->
+    <section id="pancakes" class="recipe">
         <img src="img/pancakes.jpg" alt="Pancakes">
         <h3>Pancakes</h3>
         <p>Fluffy pancakes with strawberries, chocolate spread, and maple syrup for a delightful breakfast. Read the recipe
@@ -57,8 +63,10 @@
            target="_blank">Click here for the recipe
         </a>.
         </p>
-    </div>
-        <div class="recipe">
+    </section>
+
+        <!-- Pizza Section -->
+        <section id="pizza" class="recipe">
             <img src="img/pizza.jpg" alt="Pizza and Gnocchi">
             <h3>Pizza & Gnocchi</h3>
             <p>Classic Italian pizza topped with arugula, paired with gnocchi in tomato sauce. Explore more Italian dishes
@@ -66,8 +74,10 @@
                target="_blank">Click here for the recipe
             </a>.
             </p>
-        </div>
-        <div class="recipe">
+        </section>
+
+        <!-- Tiramisu Section -->
+        <section id="tiramisu" class="recipe">
             <img src="img/tiramisu.jpg" alt="Tiramisu">
             <h3>Tiramisu</h3>
             <p>Homemade tiramisu with mascarpone cream, espresso, and a sprinkle of cocoa. Try the recipe
@@ -75,8 +85,8 @@
                target="_blank">Click here for the recipe
             </a>.
             </p>
-        </div>
-    </div>
+        </section>
+</div>
 </section>
 
 <!-- Additional Links Section -->
@@ -98,7 +108,7 @@
     <h2>About Me</h2>
     <p>         Hello! I'm a food enthusiast who loves creating recipes and sharing my culinary journey.
         Join me in exploring the art of cooking and enjoying every bite.
-    <p>
+    </p>
 </section>
 
 <!-- Footer -->
