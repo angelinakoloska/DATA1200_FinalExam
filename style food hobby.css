@@ -23,7 +23,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
+a:focus {
+    outline: 3px solid #D34E24; /* Red border for focus */
+    outline-offset: 2px; /* Adds space between the element and the outline */
+}
 /* Header */
 .header {
     background-color: #FFFFFF;
