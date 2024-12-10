@@ -1,0 +1,245 @@
+body {
+    /* Bakgrunnsfarge på hele siden satt til en grønnblå farge */
+    background-color: rgb(182, 120, 39);
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    /* Endrer fargen på h1-overskriften til hvit og setter teksten til å være midtstilt */
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  p {
+    /* Endrer skrifttypen til Verdana og setter fontstørrelsen på p-taggen til 20px */
+    font-family: verdana;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+  }
+  img {
+    max-width: 100%; /* Gjør bildene responsive */
+    height: auto; /* Beholder bildets proporsjoner */
+    display: block; /* Fjern eventuelle ekstra mellomrom rundt bilder */
+    margin: 20px auto; /* Sentraliserer bildet */
+  }
+  #bilde1 {
+    width: 50%; /* Full bredde av siden */
+    height: auto; /* Høyden justeres proporsjonalt */
+    max-height: 600px; /* Angi maks høyde hvis du vil begrense den */
+    object-fit: cover;
+
+  }
+  #bilde3, #bilde4{
+    width: 50%;
+    max-width: 500px;
+    height:auto;
+    object-fit: cover;
+    margin: 20PX auto;
+  }
+
+#bilde5 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 20px;
+}
+#bilde6 {
+    width: 40%; /* Setter bredden til 100% av containeren */
+    height: auto; /* Beholder proporsjonene til bildet */
+    object-fit: cover; /* Sørger for at bildet fyller plassen uten å bli forvrengt */
+    margin: 20px auto; /* Sentraliserer bildet med litt margin rundt */
+}
+#about, #work, #join {
+    margin: 40px 0;
+}
+
+#image-container {
+    display: flex;
+    flex-wrap: wrap; /* Gjør at bildene brytes til neste linje når det er nødvendig */
+    gap: 20px; /* Avstand mellom bildene */
+    justify-content: center; /* Sentrerer bildene */
+    margin: 40px 0;
+}
+#image-container img {
+    width: 45%; /* Setter bredden til 45% for å ha plass til to bilder på rad */
+    object-fit: cover;
+}
+
+  #about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#about-text {
+    width: 50%; 
+    margin-right: 20px;
+}
+#about-image {
+    display: flex;
+    gap: 10px;
+}
+
+#about-image img {
+    width: 48%;
+    object-fit: cover; 
+}
+#about-text p {
+    font-size: 16px; /* Minsker skriftstørrelsen */
+    color: #444; /* Mørkere farge på teksten */
+    line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet */
+}
+
+#cultural-info {
+    background-color: rgba(255, 255, 255, 0.8); /* Lys bakgrunn for tekstboksen */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px; /* Øker avstanden fra bildet */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Legger til en myk skygge */
+}
+#cultural-info h3 {
+    font-size: 1.6rem; /* Øker skriftstørrelsen for overskriften */
+    color: #333; /* Mørk farge for overskriften */
+    margin-bottom: 15px;
+}
+
+#cultural-info p {
+    font-size: 1rem;
+    color: #555; /* Lysere tekstfarge */
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+#work {
+    display: flex; /* Bruk Flexbox for å plassere innholdet på én linje */
+    justify-content: space-between;
+    align-items: center; /* Vertikalt sentering av innhold */
+    margin: 0 4rem;
+    /*gap: 5rem;*/ /* Avstand mellom bildet og teksten */
+}
+#work-text {
+    flex: 2;
+    max-width: 600px;
+}
+work-image {
+    flex: 1; /* Gjør bildet fleksibelt i forhold til teksten. */
+}
+#work-image img {
+    width: 100%; /* Fyller containeren med bildet. */
+    height: auto; /* Bevarer bildets proporsjoner. */
+    object-fit: cover;
+}
+
+#work-text h2 {
+    font-size: 2rem; /* Større skriftstørrelse for overskriften. */
+    color: #333; /* Mørk farge for overskriften. */
+}
+
+#work-text {
+    font-size: 1rem; /* Standard skriftstørrelse for paragrafen. */
+    line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet. */
+    color: #666; /* Lysere farge for teksten. */
+}
+
+#food {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.food-container {
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Legger til litt avstand mellom teksten og bildet */
+    max-width: 1200px;
+    margin: 0 auto;
+        
+}
+
+
+#food-text {
+    text-align: left; /* Sørger for at teksten er venstrestilt */
+    line-height: 1.6;
+}
+
+#food-image {
+
+    display: flex;
+    justify-content: center;
+
+}
+#food-image img {
+    width: 100%; /* Bildet fyller containeren */
+    max-width: 500px; /* Begrens bildet til en viss bredde */
+    height: auto; /* Beholder bildets proporsjoner */
+    object-fit: cover; /* Sørger for at bildet fyller plassen uten å bli forvrengt */
+}
+#Souk {
+    margin-top: 40px;
+    padding: 20px; /* Legger til litt polstring rundt seksjonen */
+    background-color: #f9f9f9; /* En lys bakgrunnsfarge for å skille denne seksjonen */
+    text-align: center; /* Sentraliserer teksten */
+    font-family: 'Georgia', serif; /* Elegant font for hele seksjonen */
+}
+
+#Souk-text {
+    max-width: 1200px; /* Begrens bredde for bedre lesbarhet */
+    margin: 0 auto; /* Sentraliserer innholdet */
+    text-align: left; /* Justerer teksten til venstre */
+    line-height: 1.6; /* Gir god linjeavstand */
+    color: #333; /* Tekstfarge */
+}
+#Souk-text h2 {
+    font-size: 2rem; /* Størrelse på overskrift */
+    color: #b45f04; /* Gir en fin kontrast til teksten */
+    margin-bottom: 20px;
+}
+
+#Souk-text p {
+    font-size: 1rem; /* Normal tekststørrelse */
+    margin-bottom: 20px; /* Avstand mellom paragrafen og bildet */
+}
+#Souk-text img {
+    display: block; /* Fjerner mellomrom under bildet */
+    margin: 0 auto; /* Sentraliserer bildet */
+    max-width: 100%; /* Gjør bildet responsivt */
+    height: auto; /* Bevarer proporsjonene */
+    border-radius: 10px; /* Gir avrundede hjørner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Legger til en liten skygge */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+#socials {
+    margin-top: 20px;
+}
+
+#socials i {
+    margin: 0 10px;
+}
+#tlf {
+    margin-top: 10px;
+}
+
+.creator {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
